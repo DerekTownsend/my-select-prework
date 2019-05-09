@@ -7,7 +7,7 @@ def my_select(collection)
      newCollection<<yield(collection[i])
      i+=1
    end
-   collection
+   newCollection
  else
    puts "This block should not run!"
  end
