@@ -7,5 +7,6 @@ def my_select(collection)
      yield(collection[i])
      i+=1
    end
- end
+   collection
+  end
 end
