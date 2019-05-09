@@ -5,7 +5,7 @@ def my_select(collection)
    temp=[]
    newCollection=[]
    while i<collection.length
-     newCollection<<yield(collection[i])
+     temp<<yield(collection[i])
      i+=1
 
    end
