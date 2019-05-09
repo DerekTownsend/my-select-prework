@@ -9,6 +9,9 @@ def my_select(collection)
      i+=1
 
    end
+   if temp.do each |items|
+
+   end
    newCollection
  else
    puts "This block should not run!"
