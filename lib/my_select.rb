@@ -8,5 +8,7 @@ def my_select(collection)
      i+=1
    end
    collection
-  end
+ else
+   puts "This block should not run!"
+ end
 end
