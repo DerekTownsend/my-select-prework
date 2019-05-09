@@ -9,7 +9,7 @@ def my_select(collection)
      i+=1
 
    end
-   if temp.do each |items|
+   if temp.do each |flag|
 
    end
    newCollection
