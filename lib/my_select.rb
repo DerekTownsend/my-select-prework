@@ -9,9 +9,9 @@ def my_select(collection)
      i+=1
 
    end
-   temp.do each |flag|
+   temp.each_with_index do |flag|
     if flag
-
+      newCollection<<
     end
   end
    newCollection
