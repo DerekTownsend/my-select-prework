@@ -11,7 +11,7 @@ def my_select(collection)
    end
    temp.each_with_index do |flag,index|
     if flag
-      newCollection<<
+      newCollection<<collection[index]
     end
   end
    newCollection
